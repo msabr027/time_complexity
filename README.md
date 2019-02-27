@@ -1,5 +1,5 @@
-# How to compute time complexity for Deep learning models ? (can be reused for other machine learning models)
-The objective is to build a library to be able to estimate time complexity of machine learning models.
+# How to compute time complexity for Deep learning models ? (can be reused for other machine learning algorithms)
+The objective is to build a library to be able to estimate time complexity of machine learning algorithms.
 
 In data science to be able to compare and analyze the necessary time to compute and get result out of machine learning models can be difficult and hazardous. 
 
