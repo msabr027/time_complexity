@@ -45,7 +45,7 @@ Based on the analysis performed:
 
 - Number of layers has a very high incidence on time computing of a deep learning algorithm. 
 
-- Adding a regularization has a positive incidence on time complexity. However, the confidence level of this insight is very low, as the t-value show is not significant in this result. More analysis should be performed to prove the impact of regularization on time complexity.
+- Adding a regularization has a positive incidence on time complexity. However, the confidence level of this insight is very low, as the p-value is not significant in this result. More analysis should be performed to prove the impact of regularization on time complexity.
 
 ## Next steps :
 
