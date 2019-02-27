@@ -41,7 +41,7 @@ l : Number of layers
 
 Based on the analysis performed:
 
-- With no surprise, number of features has no incidence on the time computing of a deep learning algorithm. This insight is quit logic and full of sense regarding how deep learning and representation learning concept works.
+- With no surprise, number of features has no incidence on the time computing of a deep learning algorithm. This insight is quite logic and full of sense regarding how deep learning and representation learning concept works.
 
 - Number of layers has a very high incidence on time computing of a deep learning algorithm. 
 
