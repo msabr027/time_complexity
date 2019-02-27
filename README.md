@@ -1,4 +1,4 @@
-# How to compute time complexity for Machine learning models
+# How to compute time complexity for Deep learning models ? (can be reused for other machine learning models)
 The objective is to build a library to be able to estimate time complexity of machine learning models.
 
 In data science to be able to compare and analyze the necessary time to compute and get result out of machine learning learning models can be difficult and hazardous. 
@@ -9,6 +9,52 @@ What we find on the internet regarding machine learning time complexity is more 
 ![BigO_Graph](http://biercoff.com/content/images/2016/07/Screenshot-2016-07-15-16-16-10.png)
 
 
-The idea in this repo is to be able to estimate machine learning algorithm time complexity by computing several combination of time 
+The idea in this repo is to be able to estimate machine learning algorithm time complexity by computing several combination of hyperparameters and training data matrice size (# of features and # of observations). The objective is after timing each combination of possibilities to map it in a log linear function.
 
-[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+![BigO_Graph](https://www.researchgate.net/publication/307798680/figure/fig5/AS:405292882907140@1473640761663/Vapor-build-up-as-a-function-of-the-equilibration-parameter-for-the-measurements-in-Figs.png)
+
+To narrow down the problem, we are focus on deep neural network structures. We define a classification problem with C classes (C is variable).
+
+Two approches for the moment :
+
+5 Dimensions Variables :
+
+n : Number of observations
+
+p : Number of features
+
+l : Number of layers
+
+dropout : With Regularization ?
+
+o : Number of Classes
+
+3 Dimensions Variables :
+
+n : Number of observations
+
+p : Number of features
+
+l : Number of layers
+
+###Key insights :
+
+We observe that from the first analysis and round performed:
+- With no suprise, number of features has no incidence on the time computing of a deep learning algorithm. This insight is quit logic and full of sense regarding how deep learning and representation learning concept works.
+
+- Number of layer has a very high incidence on time computing of a deep learning algorithm.
+
+- Adding a regularization has a positive incidence on time complexity. However the confidence level of this insight is very low, as the t-value show no significancy in this result. More analysis should be performed to prove the impact of regularization on time complexity.
+
+
+###Next steps :
+
+Ideally all the computational results should be compiled to get a set of functions that can allow any data scientist to be able to estimate computational time of problem before running a trainning session of an algorithm.
+
+
+###Reference :
+
+https://www.thekerneltrip.com/machine/learning/computational-complexity-learning-algorithms/
+
+
+
