@@ -2,7 +2,9 @@
 """
 Created on Wed Feb 13 16:16:17 2019
 
-@author: mosab
+@author: Mohamed Sabri
+
+@ref : https://www.thekerneltrip.com/machine/learning/computational-complexity-learning-algorithms/
 """
 
 #to call at the beginning
