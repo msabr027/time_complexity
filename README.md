@@ -39,10 +39,11 @@ l : Number of layers
 
 ## Key insights :
 
-We observe that from the first analysis and round performed:
+Based on the analysis performed:
+
 - With no surprise, number of features has no incidence on the time computing of a deep learning algorithm. This insight is quit logic and full of sense regarding how deep learning and representation learning concept works.
 
-- Number of layers has a very high incidence on time computing of a deep learning algorithm.
+- Number of layers has a very high incidence on time computing of a deep learning algorithm. 
 
 - Adding a regularization has a positive incidence on time complexity. However, the confidence level of this insight is very low, as the t-value show is not significant in this result. More analysis should be performed to prove the impact of regularization on time complexity.
 
