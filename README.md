@@ -17,7 +17,7 @@ To narrow down the problem, we are focus on deep neural network structures. We d
 
 Two approches for the moment :
 
-5 Dimensions Variables :
+### 5 Dimensions Variables :
 
 n : Number of observations
 
@@ -29,7 +29,7 @@ dropout : With Regularization ?
 
 o : Number of Classes
 
-3 Dimensions Variables :
+### 3 Dimensions Variables :
 
 n : Number of observations
 
@@ -37,7 +37,7 @@ p : Number of features
 
 l : Number of layers
 
-###Key insights :
+## Key insights :
 
 We observe that from the first analysis and round performed:
 - With no suprise, number of features has no incidence on the time computing of a deep learning algorithm. This insight is quit logic and full of sense regarding how deep learning and representation learning concept works.
@@ -47,12 +47,12 @@ We observe that from the first analysis and round performed:
 - Adding a regularization has a positive incidence on time complexity. However the confidence level of this insight is very low, as the t-value show no significancy in this result. More analysis should be performed to prove the impact of regularization on time complexity.
 
 
-### Next steps :
+## Next steps :
 
 Ideally all the computational results should be compiled to get a set of functions that can allow any data scientist to be able to estimate computational time of problem before running a trainning session of an algorithm.
 
 
-### Reference :
+## Reference :
 
 https://www.thekerneltrip.com/machine/learning/computational-complexity-learning-algorithms/
 
