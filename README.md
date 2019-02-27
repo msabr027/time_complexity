@@ -47,12 +47,12 @@ We observe that from the first analysis and round performed:
 - Adding a regularization has a positive incidence on time complexity. However the confidence level of this insight is very low, as the t-value show no significancy in this result. More analysis should be performed to prove the impact of regularization on time complexity.
 
 
-###Next steps :
+### Next steps :
 
 Ideally all the computational results should be compiled to get a set of functions that can allow any data scientist to be able to estimate computational time of problem before running a trainning session of an algorithm.
 
 
-###Reference :
+### Reference :
 
 https://www.thekerneltrip.com/machine/learning/computational-complexity-learning-algorithms/
 
